@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EatNearby</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <!--<li class="brand"><h1>EatNearby</h1></li>-->
+        <li class="brand"><i class="fas fa-utensils"></i> EatNearby</li>
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#features"><i class="fas fa-cogs"></i> Features</a></li>
+        <li><a href="#location"><i class="fas fa-map-marker-alt"></i> Location</a></li>
+        <li><a href="#login-signup"><i class="fas fa-user"></i> Login/Signup</a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Hungry?</h1>
+      <h1>Find Delicious Restaurants Nearby</h1>
+      <p>Never settle for boring meals again. Discover the hidden gems and explore a world of flavors with our restaurant finder.</p>
+      <p> From ratings and reviews to menus and pricing, we ensure you have all the details you need to make an informed dining decision.</p>
+      <p> Our user-friendly interface helps you quickly locate the best eateries based on your preferences.</p>
+      <div id="img"> 
+        <img src="images/1.jpeg" alt="image">
+        <img src="images/4.jpeg" alt="image">
+        <img src="images/5.jpeg" alt="image">
+        <img src="images/2.jpeg" alt="image">
+      </div>
+      <br>
+      <a href="#" class="btn">Explore Now</a>
+    </section>
+
+    
+    <section id="features">
+      <h2>Features</h2>
+      <div class="features-container">
+        <div class="feature">
+          <i class="fas fa-search"></i>
+          <h3>Easy Search</h3>
+          <p>Search by cuisine, location, or specific keywords to find the perfect restaurant.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-filter"></i>
+          <h3>Advanced Filters</h3>
+          <p>Refine your search by dietary restrictions, price range, and more.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-star"></i>
+          <h3>Read Reviews</h3>
+          <p>Make informed decisions based on real-time customer reviews and ratings.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="location">
+      <h2>Find Restaurants Near You</h2>
+      <p>Allow location access to discover amazing restaurants within walking distance or a short drive.</p>
+      <label for="location-select">Choose a location:</label>
+      <br>
+      <select id="location-select">
+        <option value="default">Select City</option>
+        <option>Ahmedabad</option>
+        <option>Baroda</option>
+        <option>surat</option>
+        <option>Patan</option>
+        <option>Mehsana</option>
+        <option>Unjha</option>
+      </select>
+      <br><br>
+      Enter your Current location
+      <br><br>
+      <input type="text">
+      <br>
+      <button>Find Restaurants</button>
+    </section>
+
+    <section id="login-signup">
+      <h2>Login or Sign Up</h2>
+      <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Login</button>
+        <p>New here? <a href="#">Sign Up</a></p>
+      </form>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Despite the abundance of dining options available, individuals often struggle to find suitable restaurants or fast-food places that meet their preferences and proximity. Existing platforms focus primarily on food delivery services, leaving a gap for a solution that specifically caters to users looking for dining options near their location. EatNearby aims to address this challenge by providing a user-friendly platform that offers comprehensive information about nearby restaurants and fast-food establishments, including ratings, reviews, and maps, thus simplifying the process of finding and selecting dining options.</p>
+        <p>We're passionate about connecting people with amazing food experiences. Our platform makes it easy to find restaurants that suit your taste and budget, all within a convenient distance.</p>
+        <h3>Comprehensive Restaurant Information:</h3>
+          <p>"Eat Nearby" provides detailed information about restaurants and fast-food establishments in your vicinity. From ratings and reviews to menus and pricing, we ensure you have all the details you need to make an informed dining decision. Our user-friendly interface helps you quickly locate the best eateries based on your preferences.</p>
+        <h3>Interactive Maps and Directions:</h3>
+            <p>With integrated mapping features, "Eat Nearby" offers seamless navigation from your current location to the restaurant of your choice. Our platform provides step-by-step directions, ensuring you reach your destination effortlessly. Whether you're looking for a cozy cafe or a bustling diner, our interactive maps guide you every step of the way.</p>
+        <h3>User-Centric Experience:</h3>
+            <p>At "Eat Nearby," we prioritize user satisfaction by delivering a personalized and intuitive experience. Our platform is designed to adapt to your needs, offering customized recommendations based on your dining history and preferences. We strive to make the process of finding and choosing a restaurant as enjoyable and straightforward as possible.</p>
+    </section>
+  
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? We'd love to hear from you!</p>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; EatNearby 2024</p>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
